@@ -5,14 +5,14 @@ interface AccordionItem {
 
 const accordionData: AccordionItem[] = [
   {
-    title: "Frequently Asked Questions",
+    title: "What technologies do you work with?",
     content:
-      "Find answers to common inquiries about my services and processes.",
+      "I primarily work with the MERN stack — MongoDB, Express.js, React.js, and Node.js. I also use tools like Git, GitHub, Firebase, Tailwind CSS, and REST APIs to build full-stack web applications.",
   },
   {
-    title: "What services do we offer?",
+    title: "Are you open to freelance or remote work?",
     content:
-      "I offer a range of services including Full-Stack Development (Vue.js, React, Node.js), Technical Consulting, Project Leadership, Code Review & Mentoring, Browser Extension Development, and API Development & Integration. We can discuss your specific needs to tailor a service package.",
+      "Yes! I’m open to freelance projects, internships, and remote opportunities where I can contribute and also improve my skills as a developer.",
   },
   {
     title: "What technologies do you specialize in?",

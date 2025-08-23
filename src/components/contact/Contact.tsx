@@ -1,8 +1,11 @@
 import { FaArrowRight } from "react-icons/fa6";
+import MessageForm from "./MessageForm";
+import ContactInfo from "./ContactInfo";
+import LetsConnect from "./LetsConnect";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center h-screen py-8 px-5">
+    <div className="flex flex-col justify-center items-center text-center mt-10">
       <h2 className="text-2xl font-bold mb-4">
         <span className="text-blue-800">#</span>tarek.dev
       </h2>
@@ -19,9 +22,19 @@ const Contact = () => {
         </span>
       </button>
       <p className="text-2xl font-bold text-center">
-        Ready to bring your ideas to life? Let's connect and start building
+        Ready to bring your ideas to life?
+      </p>
+      <p className="text-2xl font-bold text-center">
+        Let's connect and start building
         something amazing together.
       </p>
+      <div className="max-w-4xl flex flex-col justify-between md:flex-row lg:flex-row gap-5 mt-10 mb-10">
+        <MessageForm />
+        <div>
+          <ContactInfo />
+          <LetsConnect />
+        </div>
+      </div>
     </div>
   );
 };
