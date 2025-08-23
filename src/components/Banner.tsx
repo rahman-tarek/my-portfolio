@@ -1,3 +1,5 @@
+import ResumeDownloader from "./ResumeDownloader";
+
 const Banner = () => {
   return (
     <>
@@ -14,6 +16,7 @@ const Banner = () => {
           I help founders turn real-world problems into digital solutions
         </h1>
         <h3>Hello! I'm Tarek Rahman, a Frontend Engineer</h3>
+        <ResumeDownloader />
       </div>
     </>
   );
