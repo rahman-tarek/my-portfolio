@@ -12,10 +12,12 @@ const Banner = () => {
           <div className="h-2 w-2 rounded-full bg-green-700 slow-blinking-icon"></div>
           <p>Available for new project</p>
         </div>
-        <h1 className="text-xl md:text-6xl lg:text-6xl font-bold my-5 text-center sm:max-w-3xl md:max-w-3xl lg:max-w-3xl">
-          I help founders turn real-world problems into digital solutions
-        </h1>
-        <h3>Hello! I'm Tarek Rahman, a Frontend Engineer</h3>
+        <h3 className="w-full p-4 md:w-4xl text-3xl font-bold md:text-4xl text-center">Hi, I'm Tarek Rahman</h3>
+        <h3 className="w-full md:w-4xl text-xl font-bold md:text-4xl text-center">Frontend Engineer & Competitive Programmer</h3>
+        <h4 className="text-xl font-bold my-5 text-center sm:max-w-3xl md:max-w-3xl lg:max-w-3xl">
+          I help founders turn real-world problems into digital solutions.
+        </h4>
+
         <ResumeDownloader />
       </div>
     </>
