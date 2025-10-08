@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const About = () => {
   return (
     <>
-      <div className="container max-w-6xl mx-auto">
+      <div className="container p-4 max-w-6xl mx-auto text-center">
         <h1 className="text-3xl text-center font-bold">About me</h1>
         <div className="py-10 space-y-4 flex flex-col md:flex-row md:space-x-10 justify-between mt-6">
           <div className="flex flex-col items-center space-y-10">

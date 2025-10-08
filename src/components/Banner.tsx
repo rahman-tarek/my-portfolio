@@ -3,7 +3,7 @@ import ResumeDownloader from "./ResumeDownloader";
 const Banner = () => {
   return (
     <>
-      <div className="home pt-20 flex flex-col justify-center items-center mx-auto sm:max-w-7xl md:max-w-7xl lg:maz-w-7xl md:h-screen lg:h-screen">
+      <div className="home p-4 pt-20 flex flex-col justify-center items-center mx-auto sm:max-w-7xl md:max-w-7xl md:h-screen">
         <img
           src="tarek.png"
           className="w-[160px] h-[160px] rounded-full transform transition-all ease-in-out duration-300 hover:scale-105"

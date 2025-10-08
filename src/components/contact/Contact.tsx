@@ -5,7 +5,7 @@ import LetsConnect from "./LetsConnect";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center mt-10">
+    <div className="p-4 mx-auto flex flex-col justify-center items-center text-center mt-10">
       <h2 className="text-2xl font-bold mb-4">
         <span className="text-blue-800">#</span>tarek.dev
       </h2>
@@ -28,7 +28,7 @@ const Contact = () => {
         Let's connect and start building
         something amazing together.
       </p>
-      <div className="max-w-4xl flex flex-col justify-between md:flex-row lg:flex-row gap-5 mt-10 mb-10">
+      <div className="max-w-4xl mx-auto flex flex-col justify-between md:flex-row gap-5 mt-10 mb-10">
         <MessageForm />
         <div>
           <ContactInfo />
