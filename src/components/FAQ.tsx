@@ -9,7 +9,7 @@ interface AccordionItem {
 const FAQ = () => {
   return (
     <>
-      <div className="faq max-w-6xl mx-auto pt-10">
+      <div className="faq max-w-6xl mx-auto pt-10 px-4">
         <h1 className="text-xl font-bold md:text-5xl lg:text-5xl text-center">
           Frequently Asked Questions
         </h1>

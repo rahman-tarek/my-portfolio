@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const ContactInfo = () => {
     return (
-        <div className="p-4 mx-auto">
-            <div className="p-10 border-2 border-gray-300 rounded-md">
+        <div className="w-full p-4 mx-auto">
+            <div className="p-4 md:p-10 border-2 border-gray-300 rounded-md">
                 <h2 className="text-2xl font-bold text-left">Contact Info</h2>
                 <div className="link mt-5 text-left">
                     <div className="flex flex-row items-center justify-start gap-5">

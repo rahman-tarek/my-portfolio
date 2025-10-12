@@ -28,7 +28,7 @@ const Contact = () => {
         Let's connect and start building
         something amazing together.
       </p>
-      <div className="max-w-4xl mx-auto flex flex-col justify-between md:flex-row gap-5 mt-10 mb-10">
+      <div className="w-full md:max-w-4xl mx-auto flex flex-col justify-between md:flex-row gap-5 mt-10 mb-10">
         <MessageForm />
         <div>
           <ContactInfo />
