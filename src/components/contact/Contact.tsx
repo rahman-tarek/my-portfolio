@@ -5,7 +5,7 @@ import LetsConnect from "./LetsConnect";
 
 const Contact = () => {
   return (
-    <div className="p-4 mx-auto flex flex-col justify-center items-center text-center mt-10">
+    <div id="contact" className="p-4 mx-auto flex flex-col justify-center items-center text-center mt-10">
       <h2 className="text-2xl font-bold mb-4">
         <span className="text-blue-800">#</span>tarek.dev
       </h2>

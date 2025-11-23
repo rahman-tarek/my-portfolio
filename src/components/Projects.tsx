@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <>
-      <div className="w-full  py-10">
+      <div id="projects" className="w-full  py-10">
         <div className="container max-w-7xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 text-center">
             Project Showcase

@@ -20,7 +20,7 @@ const Myskills = () => {
   };
   return (
     <>
-      <div className="skills max-w-7xl flex flex-col justify-center items-center mx-auto p-4">
+      <div id="skills" className="skills max-w-7xl flex flex-col justify-center items-center mx-auto p-4">
         <h1 className="text-4xl font-bold mb-6 text-center">Skills & Expertise</h1>
         <p className="font-bold max-w-3xl text-center">
           Comprehensive technical expertise across modern web technologies,

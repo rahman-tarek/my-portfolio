@@ -12,6 +12,23 @@ const Header = () => {
     navigate("/startproject");
   };
 
+  // Function to handle navigation to different sections
+  const goTo = (section: string) => {
+    const sectionId = section.toLowerCase();
+    console.log(sectionId);
+    const element = document.getElementById(sectionId);
+    console.log(element);
+    if (element) {
+      if (sectionId === "home") {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        })
+      }
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   return (
     <div className="header h-20 w-full max-w-7xl inset-x-0 mx-auto bg-transparent fixed z-[5000] flex justify-between items-center py-4 px-8">
       <div className="logo">
@@ -25,12 +42,12 @@ const Header = () => {
         <ul className="flex gap-2 text-gray-500 text-sm">
           {["Home", "About", "Projects", "Blog", "Contact", "More"].map((item, i) => (
             <li key={i}>
-              <Link
-                to={`/${item.toLowerCase()}`}
-                className="focus:border rounded-full border-gray-300 px-4 py-1"
+              <button
+                onClick={() => goTo(item)}
+                className="cursor-pointer focus:border rounded-full border-gray-300 px-4 py-1"
               >
                 {item}
-              </Link>
+              </button>
             </li>
           ))}
         </ul>

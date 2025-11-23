@@ -5,13 +5,13 @@ import Myskills from "../components/Myskills";
 import Projects from "../components/Projects";
 const Home = () => {
   return (
-    <>
+    <div id="home">
       <Banner />
       <About />
       <Myskills />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 };
 
