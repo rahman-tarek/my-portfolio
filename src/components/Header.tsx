@@ -15,9 +15,7 @@ const Header = () => {
   // Function to handle navigation to different sections
   const goTo = (section: string) => {
     const sectionId = section.toLowerCase();
-    console.log(sectionId);
     const element = document.getElementById(sectionId);
-    console.log(element);
     if (element) {
       if (sectionId === "home") {
         window.scrollTo({

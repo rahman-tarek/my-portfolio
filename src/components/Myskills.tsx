@@ -2,7 +2,7 @@ import ThreeDot from "./ThreeDot";
 
 const Myskills = () => {
   const skills = {
-    languages: ["C", "JavaScript", "TypeScript", "Node.Js"],
+    languages: ["C", "C++", "JavaScript", "TypeScript", "Node.Js"],
     frameworks: ["Next.js", "tailwind", "Express"],
     frontend: ["HTML", "CSS", "React", "Next.js", "Tailwind CSS", "SCSS"],
     testing: ["Jest", "React Testing Library"],
